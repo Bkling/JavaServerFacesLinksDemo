@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Home Page</title>
+    </h:head>
+    <h:body>
+        <h1>Welcome to the Java Server Faces Link Demo</h1>
+        <br/>
+        <br/>
+        Below are several links. In this demo I will show you how to use a 
+        regular h:link, h:outputlink, and a h:commandlink.
+        <br/>
+        <br/>
+        This is a <h:link value="H:Link" outcome="hLink"></h:link>
+        <br/>
+        <br/>
+        This is a normal HTML tag to get to the same destination 
+        <a href="/JavaServerFacesLinksDemo/faces/hLink.xhtml">H:Link</a>
+        <br/>       
+        <br/>
+        This is a <h:outputLink value="hOutputLink.xhtml">H:OutputLink</h:outputLink>
+        <br/>
+        <br/>
+        This is a normal HTML tag to get to the same destination 
+        <a href="/JavaServerFacesLinksDemo/faces/hOutputLink.xhtml">H:OutputLink</a>
+        <br/>
+        <br/>
+        <h:form>
+        This is a <h:commandLink value="H:CommandLink" action="hCommandLink"></h:commandLink>
+        </h:form>
+        <br/>
+        This is a normal HTML tag to get to the same destination 
+        <a href="/JavaServerFacesLinksDemo/faces/hCommandLink.xhtml">H:CommandLink</a>
+    </h:body>
+</html>
+
